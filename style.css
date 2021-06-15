@@ -1,0 +1,60 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.avator {
+  position: relative;
+  background: url(https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg)
+    100% 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+/* .avator::after {
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: inherit;
+  filter: blur(10px) brightness(80%) opacity(0.8);
+  content: '';
+} */
+
+/* .avator::after {
+  border-radius: 50%;
+  position: absolute;
+  content: '';
+  transform: translateY(100%) rotateX(180deg);
+  opacity: 0.8;
+  filter: blur(5px);
+  background: inherit;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .shadow::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 10px;
+  background-color: rgba(223, 81, 81, 0.4);
+  transform: rotate(45deg);
+  animation: scan-light 2s ease-in infinite;
+}
+@keyframes scan-light {
+  from {
+    right: -100vw;
+  }
+  to {
+    right: 100vw;
+  }
+} */
